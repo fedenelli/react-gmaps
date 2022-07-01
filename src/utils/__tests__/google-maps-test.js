@@ -1,4 +1,4 @@
-jest.dontMock('querystring');
+jest.dontMock('querystring-es3');
 jest.dontMock('../../utils/google-maps');
 
 describe('GoogleMaps', () => {

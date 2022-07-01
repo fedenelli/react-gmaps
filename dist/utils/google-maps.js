@@ -6,9 +6,9 @@ Object.defineProperty(exports, '__esModule', {
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-var _querystring = require('querystring');
+var _querystringEs3 = require('querystring-es3');
 
-var _querystring2 = _interopRequireDefault(_querystring);
+var _querystringEs32 = _interopRequireDefault(_querystringEs3);
 
 exports['default'] = {
 
@@ -32,7 +32,7 @@ exports['default'] = {
   getSrc: function getSrc(params) {
     var src = 'https://maps.googleapis.com/maps/api/js';
     src += '?callback=mapsCallback&';
-    src += _querystring2['default'].stringify(params);
+    src += _querystringEs32['default'].stringify(params);
     return src;
   },
 
